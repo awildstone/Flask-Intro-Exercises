@@ -74,6 +74,3 @@ def all_math(type):
     a = request.args.get('a')
     b = request.args.get('b')
     return f'<html><body><h1>{operators[type](int(a), int(b))}</h1></body></html>'
-
-
-
